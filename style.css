@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: o;
+    /* box-sizing: border-box; */
+}
+body{
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+/* HEADER */
+
+#Checkout-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #000;
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+
+/* MAIN */
+main{
+
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+/* SOL */
+form{
+    margin-right: 2em;
+}
+.campo{
+    margin:  0.8em 0 ;
+}
+
+.input-field{
+    border: 1px solid ;
+    border-radius: 0.3em;
+    margin: 0.4em;
+    height: 2em;
+    display: block;
+    color: #828282;
+    
+}
+input,select{
+    outline: 0;
+    border: none;
+}
+.input-field:focus-within{
+    border: 1.5px solid #000;
+    
+}
+#country-field,#postal-code-field{
+    display: inline-block;
+}
+.data-form{
+    display: block;
+    position: relative;
+    margin-top: 2em;
+}
+label{
+    color: #4f4f4f;
+    margin-left: 0.4em;
+    cursor: default;
+}
+i{
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+}
+.alt-h1{
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+}
+
+/* BUTTON */
+#btn-submit {
+    width: 6em;
+    height: 3em;
+    border-radius: 0.625em;
+    background-color: #f2994a;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    position: relative;
+    top: 5%; 
+    left: 70%; ;
+    
+    margin-right: -50px;
+}
+
+/*SAG */
+
+aside{
+    
+    background-color: #EEEEEE;
+    border-radius: 1em;
+    width: 20em;
+    height: 25em;
+    padding: 0.7em 1.25em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+img{
+    width: 6em;
+    height: 7em;
+    margin-top: 1.25em;
+    border-radius: 1em;
+}
+.product{
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+.product-info{
+    display: block;
+    height: 7em;
+    width: 7em;
+    margin: 1em;
+    padding: 1em;
+}
+.product-info-h2{
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-family: 700;
+    margin-bottom: 0.3em;
+}
+.quantity-controller{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    margin-top: 1em ;
+    /* padding-top: 1em; */
+    
+
+}
+
+.btn-controller{
+    margin: 0.2em;
+    border: 1px solid#888888;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.price-color, .price-del{
+    display: inline-block;
+}
+.price-color{
+    font-size: 1em;
+    color: #f2994a;
+}
+.price-del{
+    font-size: 0.8em;
+    text-decoration: line-through;
+}
+.buy-detail{
+    display: flex;
+    justify-content: space-between; 
+    border-top: 1px solid #dbdbdd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+
