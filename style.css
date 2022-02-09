@@ -26,7 +26,6 @@ body{
 main{
 
     display: flex;
-    
     justify-content: center;
 }
 
@@ -48,9 +47,14 @@ form{
     color: #828282;
     
 }
+input{
+/* background-color: red; */
+
+}
 input,select{
     outline: 0;
     border: none;
+    /* margin-top: 2em; */
 }
 .input-field:focus-within{
     border: 1.5px solid #000;
@@ -61,7 +65,7 @@ input,select{
 }
 .data-form{
     display: block;
-    position: relative;
+    /* position: relative; */
     margin-top: 2em;
 }
 label{
@@ -72,6 +76,7 @@ label{
 i{
     margin-top: 0.4em;
     margin-left: 0.4em;
+    /* background-color: blue; */
 }
 .alt-h1{
     color: #333333;
@@ -90,9 +95,11 @@ i{
     font-weight: 600;
     text-align: center;
     border: none;
+    
     position: relative;
     top: 5%; 
-    left: 70%; ;
+    left: 100%;
+    
     
     margin-right: -50px;
 }
@@ -115,10 +122,12 @@ img{
     height: 7em;
     margin-top: 1.25em;
     border-radius: 1em;
+    border:solid #000;
 }
 .product{
     display: flex;
     justify-content: space-evenly; 
+    border: solid;
     
 }
 .product-info{
@@ -127,6 +136,7 @@ img{
     width: 7em;
     margin: 1em;
     padding: 1em;
+    /* background-color: red; */
 }
 .product-info-h2{
     font-family: 'Montserrat',Arial, Helvetica, sans-serif;
